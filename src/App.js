@@ -13,6 +13,7 @@ function App() {
         <h3>Multi step login</h3>
       </center>
       <div>
+        <p>Page {pgNo} / 3</p>
         {pgNo == 1 ? <Pg1 /> : pgNo == 2 ? <Pg2 /> : <Pg3 />}
         <center>
           {pgNo > 1 && (
